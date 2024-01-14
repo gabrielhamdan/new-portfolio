@@ -1,0 +1,26 @@
+.selected a {
+    color: white;
+}
+
+.btn {
+    text-decoration: underline;
+    cursor: pointer;
+    width: fit-content;
+    padding: 8px;
+    margin: 5px;
+  }
+  
+  .btn:hover {
+    text-decoration: none;
+  }
+  
+  .selected {
+    background-color: black;
+    color: white;
+    text-decoration: none;
+  }
+  
+  .btn-small {
+    font-size: 16pt;
+    margin: 0;
+  }

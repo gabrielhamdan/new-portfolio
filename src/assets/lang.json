@@ -1,0 +1,14 @@
+[
+    {
+        "lang": "en",
+        "language": "English",
+        "greeting": {"hello": "hello", "im": "I'm", "dev": "developer"},
+        "contentMenu": {"about": "about", "projects": "projects", "contact": "contact me"}
+    },
+    {
+        "lang": "pt",
+        "language": "português",
+        "greeting": {"hello": "olá", "im": "sou", "dev": "desenvolvedor"},
+        "contentMenu": {"about": "sobre", "projects": "projetos", "contact": "contato"}
+    }
+]
