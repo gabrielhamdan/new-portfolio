@@ -3,12 +3,22 @@
         "lang": "en",
         "language": "English",
         "greeting": {"hello": "hello", "im": "I'm", "dev": "developer"},
-        "contentMenu": {"about": "about", "projects": "projects", "contact": "contact me"}
+        "contentMenu": {"about": "about", "projects": "projects", "contact": "contact me"},
+        "contentSection": {
+            "about": ["In January 2022, I took a big step and decided on changing careers: I have a degree in Portuguese-French Literature and Linguistics from the Federal University of Rio Grande do Sul (UFRGS) and I am currently getting a second degree in Internet Systems at the Federal Institute of Rio Grande do Sul (IFRS). After only just six months since I began exploring the world of IT, I managed to get my first job experience through an internship that later resulted in me being hired by the company where I now work as a full-stack developer.", "I am constantly making new discoveries as I see my thirst for knowledge intensifying across many different tech topics. I have, for instance, developed a particular interest in low-level programming (there's nothing like good old C), and my side projects have positively impacted my understanding and learning of high-level languages.", "In addition to IT, my areas of interest are quite diverse: they include teaching and learning, translation studies (especially literary translation), linguistics, philosophy, video games, board games and tabletop RPGs (I love running Call of Cthulhu sessions for my friends whenever I've got the time), traveling, and gastronomy, among many other things."],
+            "projects": [],
+            "emptyProjectsMessage": "There are no projects available at the moment."
+        }
     },
     {
         "lang": "pt",
         "language": "português",
         "greeting": {"hello": "olá", "im": "sou", "dev": "desenvolvedor"},
-        "contentMenu": {"about": "sobre", "projects": "projetos", "contact": "contato"}
+        "contentMenu": {"about": "sobre", "projects": "projetos", "contact": "contato"},
+        "contentSection": {
+            "about": ["Em janeiro de 2022, decidi migrar de área: sou graduado em Letras Português-Francês pela UFRGS e, atualmente, curso Sistemas para Internet no IFRS. Com apenas cerca de seis meses no universo da TI, consegui ingressar nesse mercado por meio de um estágio que resultou na minha contratação pela empresa em que agora atuo como desenvolvedor full-stack.", "Ainda estou vivenciando um período de descobertas constantes na área da tecnologia e, cada vez mais, as afinidades se fortalecem e minha sede de conhecimento se intensifica pelos mais diversos tópicos. Tenho, por exemplo, desenvolvido um interesse particular em programação de baixo nível (nada como o bom e velho C), e isso tem impactado positivamente no meu entendimento e aprendizagem de linguagens de alto nível.", "Para além da TI, minhas áreas de interesse são várias e diversificadas: ensino e aprendizagem, estudos da tradução (sobretudo literária), linguística, filosofia, videogames, jogos de tabuleiro e RPGs de mesa (adoro mestrar Chamado de Cthulhu para os amigos quando há tempo), viagens, gastronomia e tantas outras coisas."],
+            "projects": [],
+            "emptyProjectsMessage": "Não há projetos disponíveis no momento."
+        }
     }
 ]

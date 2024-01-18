@@ -3,7 +3,11 @@ import MenuButton from './components/btn_menu/MenuButton'
 import Header from './components/header/Header'
 import jsonData from './assets/lang.json';
 import portrait from './assets/portrait.png';
+import cv from './assets/cv-gabriel-hamdan.pdf';
 import { useState, useEffect } from 'react';
+import { faGithub, faLinkedinIn } from '@fortawesome/free-brands-svg-icons'
+import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
+import IconLink from './components/icon_link/IconLink';
 
 function App() {
   const [language, setLanguage] = useState("en");
@@ -37,7 +41,7 @@ function App() {
           <h1>{langData?.greeting?.im} <span className='bold'>Gabriel Hamdan</span></h1>
           <h2>{langData?.greeting?.dev}</h2>
           <div className='cv-container'>
-            <a className='a-solid-btn' href='#'><h4 className='solid-btn'>download CV</h4></a>
+            <a className='a-solid-btn' href={cv} download="CV - Gabriel Hamdan"><h4 className='solid-btn'>download CV</h4></a>
           </div>
         </div>
       </div>
@@ -55,18 +59,29 @@ function App() {
               <img className='portrait' src={portrait} alt='Gabriel Hamdan'/>
             </div>
 
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In exercitationem nihil magnam harum, hic modi inventore facere beatae, sed unde praesentium aliquid iure non neque, quo sint aliquam eaque repellendus!</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In exercitationem nihil magnam harum, hic modi inventore facere beatae, sed unde praesentium aliquid iure non neque, quo sint aliquam eaque repellendus!</p>
+            {
+              langData?.contentSection?.about.map(p => {
+                return <p>{p}</p>
+              })
+            }
           </section>
 
           <section id='projects' className="content">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In exercitationem nihil magnam harum, hic modi inventore facere beatae, sed unde praesentium aliquid iure non neque, quo sint aliquam eaque repellendus!</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In exercitationem nihil magnam harum, hic modi inventore facere beatae, sed unde praesentium aliquid iure non neque, quo sint aliquam eaque repellendus!</p>
+            { langData?.contentSection?.projects.length > 1 ?
+              langData?.contentSection?.projects.map(project => {
+                return <p>{project}</p>
+              })
+
+              :
+
+              <p className='err-msg'>{langData?.contentSection?.emptyProjectsMessage}</p>
+            }
           </section>
 
-          <section id='contact' className="content">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In exercitationem nihil magnam harum, hic modi inventore facere beatae, sed unde praesentium aliquid iure non neque, quo sint aliquam eaque repellendus!</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In exercitationem nihil magnam harum, hic modi inventore facere beatae, sed unde praesentium aliquid iure non neque, quo sint aliquam eaque repellendus!</p>
+          <section id='contact' className="content contact-section">
+            <IconLink icon={faGithub} link="https://github.com/gabrielhamdan" />
+            <IconLink icon={faLinkedinIn} link="https://www.linkedin.com/in/gabriel-hamdan" />
+            <IconLink icon={faEnvelope} link="mailto:gabriel_hamdan@hotmail.com" />
           </section>
         </div>
       </div>

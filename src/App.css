@@ -55,6 +55,17 @@
   margin: 50px auto;
 }
 
+.contact-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin: 150px auto;
+}
+
+.content-section p {
+  padding: 15px;
+}
+
 .content-menu {
   display: flex;
   margin: 50px;
@@ -74,7 +85,10 @@
   scroll-behavior: smooth;
 }
 
-
+.err-msg {
+  background-color: black;
+  color: white;
+}
 
 @media(max-width: 900px) {
   .main-container {
