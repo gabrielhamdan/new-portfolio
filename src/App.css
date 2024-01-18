@@ -66,6 +66,13 @@
   padding: 15px;
 }
 
+.projects-content {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 5px;
+  padding: 10px;
+}
+
 .content-menu {
   display: flex;
   margin: 50px;

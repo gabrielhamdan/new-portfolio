@@ -8,6 +8,7 @@ import { useState, useEffect } from 'react';
 import { faGithub, faLinkedinIn } from '@fortawesome/free-brands-svg-icons'
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
 import IconLink from './components/icon_link/IconLink';
+import ProjectCard from './components/project_card/ProjectCard';
 
 function App() {
   const [language, setLanguage] = useState("en");
@@ -67,15 +68,17 @@ function App() {
           </section>
 
           <section id='projects' className="content">
-            { langData?.contentSection?.projects.length > 1 ?
-              langData?.contentSection?.projects.map(project => {
-                return <p>{project}</p>
-              })
+            <div className="projects-content">
+              { langData?.contentSection?.projects.length > 0 ?
+                langData?.contentSection?.projects.map((project, key) => {
+                  return <ProjectCard key={key} link={project.link} description={project.description} title={project.title} imgId={project.imgId} />
+                })
 
-              :
-
-              <p className='err-msg'>{langData?.contentSection?.emptyProjectsMessage}</p>
-            }
+                :
+                
+                <p className='err-msg'>{langData?.contentSection?.emptyProjectsMessage}</p>
+              }
+            </div>
           </section>
 
           <section id='contact' className="content contact-section">
