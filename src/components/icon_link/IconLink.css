@@ -1,0 +1,19 @@
+.icon-link-container {
+    background-color: black;
+    width: fit-content;
+    padding: 5px;
+    width: 25px;
+    height: 25px;
+    text-align: center;
+}
+
+.icon-link-container:hover,
+.icon-link-container:hover > a {
+    background-color: transparent;
+    color: black;
+    cursor: pointer;
+}
+
+.icon-link {
+    color: white;
+}
