@@ -8,16 +8,19 @@
             "about": ["In January 2022, I took a big step and decided on changing careers: I have a degree in Portuguese-French Literature and Linguistics from the Federal University of Rio Grande do Sul (UFRGS) and I am currently getting a second degree in Internet Systems at the Federal Institute of Rio Grande do Sul (IFRS). After just six months since I began exploring the world of IT, I managed to get my first job experience through an internship that later resulted in me being hired by the company where I now work as a full-stack developer.", "I am constantly making new discoveries as I see my thirst for knowledge intensifying across many different tech topics. I have, for instance, developed a particular interest in low-level programming (there's nothing like good old C), and my side projects have positively impacted my understanding and learning of high-level languages.", "In addition to IT, my areas of interest are quite diverse: they include teaching and learning, translation studies (especially literary translation), linguistics, philosophy, video games, board games and tabletop RPGs (I love running Call of Cthulhu sessions for my friends whenever I've got the time), traveling, and gastronomy, among many other things."],
             "projects": [
                 {
-                    "imgId": 99,
-                    "link": "#",
-                    "title": "Lorem ipsum",
-                    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tincidunt eros nec consectetur auctor. Nunc elementum sit amet velit vel aliquam. Integer sit amet tincidunt metus. Mauris urna ante, placerat ac est non, venenatis ultrices orci. Nulla sodales feugiat lectus."
+                    "link": "https://github.com/gabrielhamdan/pokedex",
+                    "title": "Pokédex",
+                    "description": "A pokédex made using React."
                 },
                 {
-                    "imgId": 0,
-                    "link": "#",
-                    "title": "Lorem ipsum",
-                    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tincidunt eros nec consectetur auctor. Nunc elementum sit amet velit vel aliquam. Integer sit amet tincidunt metus. Mauris urna ante, placerat ac est non, venenatis ultrices orci. Nulla sodales feugiat lectus."
+                    "link": "https://github.com/gabrielhamdan/githubAPI",
+                    "title": "GitHub API Interface",
+                    "description": "A simple interface for showing data fetched from the GitHub API."
+                },
+                {
+                    "link": "https://github.com/gabrielhamdan/lista-encadeada",
+                    "title": "Linked List in C",
+                    "description": "A console app implementing a linked list for a  data structure project from university."
                 }
             ],
             "emptyProjectsMessage": "There are no projects available at the moment."
@@ -32,16 +35,19 @@
             "about": ["Em janeiro de 2022, decidi migrar de área: sou graduado em Letras Português-Francês pela UFRGS e, atualmente, curso Sistemas para Internet no IFRS. Com apenas cerca de seis meses no universo da TI, consegui ingressar nesse mercado por meio de um estágio que resultou na minha contratação pela empresa em que agora atuo como desenvolvedor full-stack.", "Ainda estou vivenciando um período de descobertas constantes na área da tecnologia e, cada vez mais, as afinidades se fortalecem e minha sede de conhecimento se intensifica pelos mais diversos tópicos. Tenho, por exemplo, desenvolvido um interesse particular em programação de baixo nível (nada como o bom e velho C), e isso tem impactado positivamente no meu entendimento e aprendizagem de linguagens de alto nível.", "Para além da TI, minhas áreas de interesse são várias e diversificadas: ensino e aprendizagem, estudos da tradução (sobretudo literária), linguística, filosofia, videogames, jogos de tabuleiro e RPGs de mesa (adoro mestrar Chamado de Cthulhu para os amigos quando há tempo), viagens, gastronomia e tantas outras coisas."],
             "projects": [
                 {
-                    "imgId": 99,
-                    "link": "#",
-                    "title": "Lorem ipsum",
-                    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tincidunt eros nec consectetur auctor. Nunc elementum sit amet velit vel aliquam. Integer sit amet tincidunt metus. Mauris urna ante, placerat ac est non, venenatis ultrices orci. Nulla sodales feugiat lectus."
+                    "link": "https://github.com/gabrielhamdan/pokedex",
+                    "title": "Pokédex",
+                    "description": "Uma pokédex implementada utilizando React."
                 },
                 {
-                    "imgId": 0,
-                    "link": "#",
-                    "title": "Lorem ipsum",
-                    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tincidunt eros nec consectetur auctor. Nunc elementum sit amet velit vel aliquam. Integer sit amet tincidunt metus. Mauris urna ante, placerat ac est non, venenatis ultrices orci. Nulla sodales feugiat lectus."
+                    "link": "https://github.com/gabrielhamdan/githubAPI",
+                    "title": "Consumo da API do GitHub",
+                    "description": "Uma interface para a exibição de dados de consumo da API do GitHub."
+                },
+                {
+                    "link": "https://github.com/gabrielhamdan/lista-encadeada",
+                    "title": "Lista Encadeada em C",
+                    "description": "Uma aplicação de console implementando uma lista encadeada para a disciplina de Estrutura de Dados I do curso de Sistemas para Internet (IFRS)."
                 }
             ],
             "emptyProjectsMessage": "Não há projetos disponíveis no momento."

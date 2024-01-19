@@ -8,12 +8,6 @@
     height: 100%;
 }
 
-.project-card-image {
-    width: 50%;
-    filter: drop-shadow(10px 10px 0 white);
-    margin-top: 15px;
-}
-
 .project-card-text-container {
     margin: 30px auto;
     color: white;
@@ -33,8 +27,4 @@
 .project-card-container:hover p {
     color: black;
     text-decoration: underline;
-}
-
-.project-card-container:hover img {
-    filter: drop-shadow(10px 10px 0 black);
 }
