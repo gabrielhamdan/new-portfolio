@@ -18,6 +18,11 @@
                     "description": "A simple interface for showing data fetched from the GitHub API."
                 },
                 {
+                    "link": "https://github.com/gabrielhamdan/dirmanager-py",
+                    "title": "Dirmanager Py",
+                    "description": "A Python script to organize files in directories based on their extensions and last modification dates."
+                },
+                {
                     "link": "https://github.com/gabrielhamdan/lista-encadeada",
                     "title": "Linked List in C",
                     "description": "A console app implementing a linked list for a  data structure project from university."
@@ -43,6 +48,11 @@
                     "link": "https://github.com/gabrielhamdan/githubAPI",
                     "title": "Consumo da API do GitHub",
                     "description": "Uma interface para a exibição de dados de consumo da API do GitHub."
+                },
+                {
+                    "link": "https://github.com/gabrielhamdan/dirmanager-py",
+                    "title": "Dirmanager Py",
+                    "description": "Script em Python para organizar arquivos em diretórios de acordo com a extensão."
                 },
                 {
                     "link": "https://github.com/gabrielhamdan/lista-encadeada",
