@@ -71,7 +71,7 @@ function App() {
             <div className="projects-content">
               { langData?.contentSection?.projects.length > 0 ?
                 langData?.contentSection?.projects.map((project, key) => {
-                  return <ProjectCard key={key} link={project.link} description={project.description} title={project.title} imgId={project.imgId} />
+                  return <ProjectCard key={key} link={project.link} description={project.description} title={project.title} imgId={project.imgId} tags={project.tags}/>
                 })
 
                 :
