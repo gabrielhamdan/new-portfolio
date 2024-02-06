@@ -10,22 +10,32 @@
                 {
                     "link": "https://github.com/gabrielhamdan/pokedex",
                     "title": "Pokédex",
-                    "description": "A pokédex made using React."
+                    "description": "A pokédex made using React.",
+                    "tags": ["React"]
+                },
+                {
+                    "link": "https://github.com/gabrielhamdan/2600-bitmapy",
+                    "title": "2600 Bitmapy",
+                    "description": "A CLI tool for easily creating async playfield bitmaps for the classic Atari 2600.",
+                    "tags": ["Python"]
                 },
                 {
                     "link": "https://github.com/gabrielhamdan/githubAPI",
                     "title": "GitHub API Interface",
-                    "description": "A simple interface for showing data fetched from the GitHub API."
+                    "description": "A simple interface for showing data fetched from the GitHub API.",
+                    "tags": ["JS", "HTML", "CSS"]
                 },
                 {
                     "link": "https://github.com/gabrielhamdan/dirmanager-py",
                     "title": "Dirmanager Py",
-                    "description": "A Python script to organize files in directories based on their extensions and last modification dates."
+                    "description": "A Python script to organize files in directories based on their extensions and last modification dates.",
+                    "tags": ["Python"]
                 },
                 {
                     "link": "https://github.com/gabrielhamdan/lista-encadeada",
                     "title": "Linked List in C",
-                    "description": "A console app implementing a linked list for a  data structure project from university."
+                    "description": "A console app implementing a linked list for a  data structure project from university.",
+                    "tags": ["C"]
                 }
             ],
             "emptyProjectsMessage": "There are no projects available at the moment."
@@ -42,22 +52,32 @@
                 {
                     "link": "https://github.com/gabrielhamdan/pokedex",
                     "title": "Pokédex",
-                    "description": "Uma pokédex implementada utilizando React."
+                    "description": "Uma pokédex implementada utilizando React.",
+                    "tags": ["React"]
+                },
+                {
+                    "link": "https://github.com/gabrielhamdan/2600-bitmapy",
+                    "title": "2600 Bitmapy",
+                    "description": "Ferramenta de linha de comando para conversão de imagens em bitmap para o clássico Atari 2600.",
+                    "tags": ["Python"]
                 },
                 {
                     "link": "https://github.com/gabrielhamdan/githubAPI",
                     "title": "Consumo da API do GitHub",
-                    "description": "Uma interface para a exibição de dados de consumo da API do GitHub."
+                    "description": "Uma interface para a exibição de dados de consumo da API do GitHub.",
+                    "tags": ["JS", "HTML", "CSS"]
                 },
                 {
                     "link": "https://github.com/gabrielhamdan/dirmanager-py",
                     "title": "Dirmanager Py",
-                    "description": "Script em Python para organizar arquivos em diretórios de acordo com a extensão."
+                    "description": "Script em Python para organizar arquivos em diretórios de acordo com a extensão.",
+                    "tags": ["Python"]
                 },
                 {
                     "link": "https://github.com/gabrielhamdan/lista-encadeada",
                     "title": "Lista Encadeada em C",
-                    "description": "Uma aplicação de console implementando uma lista encadeada para a disciplina de Estrutura de Dados I do curso de Sistemas para Internet (IFRS)."
+                    "description": "Uma aplicação de console implementando uma lista encadeada para a disciplina de Estrutura de Dados I do curso de Sistemas para Internet (IFRS).",
+                    "tags": ["C"]
                 }
             ],
             "emptyProjectsMessage": "Não há projetos disponíveis no momento."
