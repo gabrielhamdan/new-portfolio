@@ -1,22 +1,25 @@
 .project-card-container {
     background-color: black;
     display: flex;
-    align-items: center;
-    justify-content: center;
+    align-items: start;
+    justify-content: space-between;
     flex-direction: column;
-    padding: 15px;
     height: 100%;
 }
 
 .project-card-text-container {
-    margin: 30px auto;
     color: white;
     font-size: 12pt;
     line-height: 1.5;
+    padding: 40px;
 }
 
 .project-card-text-container p {
     padding: 0;
+}
+.project-card-text-container h3 {
+    text-decoration: underline;
+    margin-bottom: 15px;
 }
 
 .project-card-container:hover {
@@ -27,4 +30,14 @@
 .project-card-container:hover p {
     color: black;
     text-decoration: underline;
+}
+
+.project-card-container:hover .tag-container {
+    visibility: hidden;
+}
+
+.tag-container {
+    display: flex;
+    width: 100%;
+    padding: 30px 40px;
 }
